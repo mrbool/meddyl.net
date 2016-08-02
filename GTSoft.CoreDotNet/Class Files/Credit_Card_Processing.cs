@@ -7,6 +7,7 @@ using AuthorizeNet;
 using Braintree;
 
 // test from new pc
+// test from wpc
 
 namespace GTSoft.CoreDotNet
 {
