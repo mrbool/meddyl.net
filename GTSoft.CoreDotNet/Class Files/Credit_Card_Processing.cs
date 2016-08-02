@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 using AuthorizeNet;
 using Braintree;
 
-// test from new pc
-// test from wpc
-// test from new pc2
 
 namespace GTSoft.CoreDotNet
 {
