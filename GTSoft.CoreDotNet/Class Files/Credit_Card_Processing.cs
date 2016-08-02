@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using AuthorizeNet;
 using Braintree;
 
+// test from new pc
+
 namespace GTSoft.CoreDotNet
 {
     public class Credit_Card_Processing
