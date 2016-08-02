@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<database_connections>
+	<connection>
+		<connection_name>LNMS</connection_name>
+		<server_type>SQL Server</server_type>
+		<data_source>GTRIARHOS-E6400</data_source>
+		<user_name>139,152,160,34,112,226,30,133</user_name>
+		<password>56,133,11,226,75,190,232,232</password>
+		<authentication>SQL</authentication>
+		<database>LexisNexis</database>
+		<connection_timeout>10</connection_timeout>
+		<port>0</port>
+		<encrypt>true</encrypt>
+	</connection>
+	<connection>
+		<connection_name>MAX</connection_name>
+		<server_type>SQL Server</server_type>
+		<data_source>GTRIARHOS-E6400\DEV</data_source>
+		<user_name>139,152,160,34,112,226,30,133</user_name>
+		<password>56,133,11,226,75,190,232,232</password>
+		<authentication>SQL</authentication>
+		<database>LexisNexis</database>
+		<connection_timeout>10</connection_timeout>
+		<port>0</port>
+		<encrypt>true</encrypt>
+	</connection>
+</database_connections>
+
+
