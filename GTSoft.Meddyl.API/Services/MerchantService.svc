@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GTSoft.Meddyl.API.MerchantService" CodeBehind="MerchantService.svc.cs" %>

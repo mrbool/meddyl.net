@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C65E0E6-73F4-452A-8BDA-20C28C440367}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GTSoft.Meddyl.API</RootNamespace>
+    <AssemblyName>GTSoft.Meddyl.API</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Services\CustomerService.svc" />
+    <Content Include="Services\MerchantService.svc" />
+    <Content Include="System\connections.xml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="web.config.live.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class_Files\DAL_To_JSON.cs" />
+    <Compile Include="Class_Files\JSON_To_Data.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Application_Type.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Certificate.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Certificate_Log.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Certificate_Payment.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Certificate_Status.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_City.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Contact.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Contact_GPS_Log.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Credit_Card.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Credit_Card_Type.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Customer.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Customer_Deal_Log.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Customer_Search_Location_Type.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Customer_Status.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Deal.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Deal_Fine_Print_Option.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Deal_Log.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Deal_Payment.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Deal_Status.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Deal_Validation.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Email_Template.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Facebook_Data_Friends.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Facebook_Data_Hometown.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Facebook_Data_Location.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Facebook_Data_Profile.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Fine_Print_Option.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Industry.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Login_Log.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Merchant.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Merchant_Contact.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Merchant_Contact_Status.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Merchant_Contact_Validation.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Merchant_Rating.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Merchant_Status.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Neighborhood.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Password_Reset.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Password_Reset_Status.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Payment_Log.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Plivo_Phone_Number.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Promotion.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Promotion_Activity.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Promotion_Type.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_SMS_Template.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_State.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_System_Error.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_System_Settings.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_System_Successful.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_System_Users.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Time_Zone.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Twilio_Phone_Number.cs" />
+    <Compile Include="Data\Base_Class_Files\Base_Zip_Code.cs" />
+    <Compile Include="Data\Class_Files\Certificate_Log.cs" />
+    <Compile Include="Data\Class_Files\Certificate_Payment.cs" />
+    <Compile Include="Data\Class_Files\Credit_Card.cs" />
+    <Compile Include="Data\Class_Files\Credit_Card_Type.cs" />
+    <Compile Include="Data\Class_Files\Customer_Deal_Log.cs" />
+    <Compile Include="Data\Class_Files\Customer_Search_Location_Type.cs" />
+    <Compile Include="Data\Class_Files\Deal_Fine_Print_Option.cs" />
+    <Compile Include="Data\Class_Files\Deal_Log.cs" />
+    <Compile Include="Data\Class_Files\Deal_Payment.cs" />
+    <Compile Include="Data\Class_Files\Deal_Validation.cs" />
+    <Compile Include="Data\Class_Files\Email_Template.cs" />
+    <Compile Include="Data\Class_Files\Facebook_Data_Friends.cs" />
+    <Compile Include="Data\Class_Files\Facebook_Data_Hometown.cs" />
+    <Compile Include="Data\Class_Files\Facebook_Data_Location.cs" />
+    <Compile Include="Data\Class_Files\Facebook_Data_Profile.cs" />
+    <Compile Include="Data\Class_Files\Fine_Print_Option.cs" />
+    <Compile Include="Data\Class_Files\Merchant_Contact_Status.cs" />
+    <Compile Include="Data\Class_Files\Merchant_Contact_Validation.cs" />
+    <Compile Include="Data\Class_Files\Merchant_Rating.cs" />
+    <Compile Include="Data\Class_Files\Neighborhood.cs" />
+    <Compile Include="Data\Class_Files\Password_Reset.cs" />
+    <Compile Include="Data\Class_Files\Password_Reset_Status.cs" />
+    <Compile Include="Data\Class_Files\Payment_Log.cs" />
+    <Compile Include="Data\Class_Files\Plivo_Phone_Number.cs" />
+    <Compile Include="Data\Class_Files\Promotion.cs" />
+    <Compile Include="Data\Class_Files\Promotion_Activity.cs" />
+    <Compile Include="Data\Class_Files\Promotion_Type.cs" />
+    <Compile Include="Data\Class_Files\SMS_Template.cs" />
+    <Compile Include="Data\Class_Files\System_Error.cs" />
+    <Compile Include="Data\Class_Files\System_Successful.cs" />
+    <Compile Include="Data\Class_Files\System_Users.cs" />
+    <Compile Include="Data\Class_Files\Time_Zone.cs" />
+    <Compile Include="Data\Class_Files\Twilio_Phone_Number.cs" />
+    <Compile Include="Data\JSON\JSONErrorResponse.cs" />
+    <Compile Include="Data\JSON\JSONSuccessfulResponse.cs" />
+    <Compile Include="Data\JSON\JSONResponse.cs" />
+    <Compile Include="Data\Class_Files\Application_Type.cs" />
+    <Compile Include="Data\Class_Files\Certificate.cs" />
+    <Compile Include="Data\Class_Files\Certificate_Status.cs" />
+    <Compile Include="Data\Class_Files\City.cs" />
+    <Compile Include="Data\Class_Files\Contact.cs" />
+    <Compile Include="Data\Class_Files\Contact_GPS_Log.cs" />
+    <Compile Include="Data\Class_Files\Customer.cs" />
+    <Compile Include="Data\Class_Files\Customer_Status.cs" />
+    <Compile Include="Data\Class_Files\Deal.cs" />
+    <Compile Include="Data\Class_Files\Deal_Status.cs" />
+    <Compile Include="Data\Class_Files\Industry.cs" />
+    <Compile Include="Data\Class_Files\Login_Log.cs" />
+    <Compile Include="Data\Class_Files\Merchant.cs" />
+    <Compile Include="Data\Class_Files\Merchant_Contact.cs" />
+    <Compile Include="Data\Class_Files\Merchant_Status.cs" />
+    <Compile Include="Data\Class_Files\State.cs" />
+    <Compile Include="Data\Class_Files\System_Settings.cs" />
+    <Compile Include="Data\Class_Files\Zip_Code.cs" />
+    <Compile Include="Services\CustomerService.svc.cs">
+      <DependentUpon>CustomerService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IMerchantService.cs" />
+    <Compile Include="Services\MerchantService.svc.cs">
+      <DependentUpon>MerchantService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GTSoft.Meddyl.BLL\GTSoft.Meddyl.BLL.csproj">
+      <Project>{191e9fa9-1417-4178-9ac2-b864fc6dd50b}</Project>
+      <Name>GTSoft.Meddyl.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GTSoft.Meddyl.DAL\GTSoft.Meddyl.DAL.csproj">
+      <Project>{9634000e-6431-4516-be6c-135fb83b5ad6}</Project>
+      <Name>GTSoft.Meddyl.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65331</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:200/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

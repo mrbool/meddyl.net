@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.ServiceModel.Web;
+using System.Text;
+
+namespace GTSoft.Meddyl.API
+{
+
+    [DataContract]
+    public class JSONErrorResponse : JSONResponse
+    {
+        [DataMember]
+        public System_Error system_error_obj { get; set; }
+
+
+        public JSONErrorResponse()
+        {
+            successful = false;
+        }
+    }
+
+
+
+}
+

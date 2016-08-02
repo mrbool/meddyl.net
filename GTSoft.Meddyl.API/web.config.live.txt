@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appSettings>
+		<add key="aspnet:UseTaskFriendlySynchronizationContext" value="true"/>
+	</appSettings>
+	<system.web>
+		<compilation debug="true" targetFramework="4.5"/>
+		<httpRuntime targetFramework="4.5"/>
+	</system.web>
+
+
+	<system.serviceModel>
+		<bindings>
+			<webHttpBinding>
+    				<binding maxBufferSize="2147483647" maxReceivedMessageSize="2147483647">
+      					<security mode="Transport" />
+    				</binding>
+			</webHttpBinding>
+		</bindings>
+		<serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true"/>
+		<services>
+			<service behaviorConfiguration="service_behavior" name="GTSoft.Meddyl.API.MerchantService">
+				<endpoint address="" binding="webHttpBinding" contract="GTSoft.Meddyl.API.IMerchantService" behaviorConfiguration="endpoint_behavior">
+				</endpoint>
+				<endpoint name="mexHttpBinding" address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+			</service>
+			<service behaviorConfiguration="service_behavior" name="GTSoft.Meddyl.API.CustomerService">
+				<endpoint address="" binding="webHttpBinding" contract="GTSoft.Meddyl.API.ICustomerService" behaviorConfiguration="endpoint_behavior">
+				</endpoint>
+				<endpoint name="mexHttpBinding" address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+			</service>
+		</services>
+		<behaviors>
+			<endpointBehaviors>
+				<behavior name="endpoint_behavior">
+					<webHttp helpEnabled="true"/>
+				</behavior>
+			</endpointBehaviors>
+			<serviceBehaviors>
+				<behavior name="service_behavior">
+					<serviceMetadata httpGetEnabled="true"/>
+					<serviceDebug includeExceptionDetailInFaults="false"/>
+				</behavior>
+			</serviceBehaviors>
+		</behaviors>
+	</system.serviceModel>
+	<system.webServer>
+		<directoryBrowse enabled="false"/>
+	</system.webServer>
+	<runtime>
+		<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+			<dependentAssembly>
+				<assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30AD4FE6B2A6AEED" culture="neutral"/>
+				<bindingRedirect oldVersion="0.0.0.0-7.0.0.0" newVersion="7.0.0.0"/>
+			</dependentAssembly>
+		</assemblyBinding>
+	</runtime>
+</configuration>

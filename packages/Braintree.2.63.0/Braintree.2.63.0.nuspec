@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Braintree</id>
+    <version>2.63.0</version>
+    <title>Braintree</title>
+    <authors>Braintree</authors>
+    <owners>Braintree</owners>
+    <projectUrl>https://github.com/braintree/braintree_dotnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Braintree client library</description>
+    <summary />
+    <releaseNotes>* Add support for passing risk data on Customer and Transaction requests
+* Add support for passing transaction_source to set MOTO or recurring ECI flag</releaseNotes>
+  </metadata>
+</package>

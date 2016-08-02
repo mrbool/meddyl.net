@@ -1,0 +1,160 @@
+﻿html, body{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+tr.spaceUnder > td
+{
+  padding-bottom: 2em;
+}
+
+tr.spaceUnder3 > td
+{
+  padding-bottom: 3em;
+}
+
+tr.spaceUnder4 > td
+{
+  padding-bottom: 3em;
+}
+
+.logo_1
+{
+    height:190px;
+    width:630px;
+ }
+
+.logo_apps
+{
+    height:130px;
+    width:400px;
+ }
+
+.label_1
+{
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 2em;
+}
+
+.label_2
+{
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+}
+
+.hyperlink_1
+{
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 2em;
+}
+
+.hyperlink_2
+{
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 2em;
+    width:100%;
+}
+
+.text_box_1 
+{
+    border-style:solid;
+    border-width:1.25px;
+    border-color:red;
+    border-radius: 4px;
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+    padding:10px;
+    width:300px;
+}
+
+.button_1 
+{
+    background-color:gray;
+    color:white;
+    border-radius: 4px;
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 2em;
+    height: 70px;
+    padding:10px;
+    width:320px;
+}
+
+.linkbutton_1
+{
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
+    font-size: 1.5em;
+}
+
+.button_image_1 
+{
+    height: 90px;
+    padding:10px;
+    width:345px;
+}
+
+.myGridClass {
+  width: 70%;
+  /*this will be the color of the odd row*/
+  background-color: #fff;
+  margin: 5px 0 10px 0;
+  border: solid 1px #525252;
+  border-collapse:collapse;
+}
+
+/*data elements*/
+.myGridClass td {
+  padding: 2px;
+  border: solid 1px #c1c1c1;
+  color: #717171;
+}
+
+/*header elements*/
+.myGridClass th {
+  padding: 4px 2px;
+  color: #fff;
+  background: #424242;
+  border-left: solid 1px #525252;
+  font-size: 1.2em;
+}
+
+/*his will be the color of even row*/
+.myGridClass .myAltRowClass { background: #fcfcfc repeat-x top; }
+
+/*and finally, we style the pager on the bottom*/
+.myGridClass .myPagerClass { background: #424242; }
+
+.myGridClass .myPagerClass table { margin: 5px 0; }
+
+.myGridClass .myPagerClass td {
+  border-width: 0;
+  padding: 0 6px;
+  border-left: solid 1px #666;
+  font-weight: bold;
+  color: #fff;
+  line-height: 12px;
+}
+
+.myGridClass .myPagerClass a { color: #666; text-decoration: none; }
+
+.myGridClass .myPagerClass a:hover { color: #000; text-decoration: none; } 
+
+.myGridClass caption
+{
+  color: #717171;
+    font-size:1.5em;
+}
+
+.grid_item
+{
+    height:30px;
+    font-size:1.5em;
+}
+
+.inner_table 
+{
+    width:100%;
+    padding:5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9634000E-6431-4516-BE6C-135FB83B5AD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GTSoft.Meddyl.DAL</RootNamespace>
+    <AssemblyName>GTSoft.Meddyl.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base_Class_Files\Base_Application_Type.cs" />
+    <Compile Include="Base_Class_Files\Base_Certificate.cs" />
+    <Compile Include="Base_Class_Files\Base_Certificate_Log.cs" />
+    <Compile Include="Base_Class_Files\Base_Certificate_Payment.cs" />
+    <Compile Include="Base_Class_Files\Base_Certificate_Status.cs" />
+    <Compile Include="Base_Class_Files\Base_City.cs" />
+    <Compile Include="Base_Class_Files\Base_Contact.cs" />
+    <Compile Include="Base_Class_Files\Base_Contact_GPS_Log.cs" />
+    <Compile Include="Base_Class_Files\Base_Credit_Card.cs" />
+    <Compile Include="Base_Class_Files\Base_Credit_Card_Type.cs" />
+    <Compile Include="Base_Class_Files\Base_Customer.cs" />
+    <Compile Include="Base_Class_Files\Base_Customer_Deal_Log.cs" />
+    <Compile Include="Base_Class_Files\Base_Customer_Search_Location_Type.cs" />
+    <Compile Include="Base_Class_Files\Base_Customer_Status.cs" />
+    <Compile Include="Base_Class_Files\Base_Deal.cs" />
+    <Compile Include="Base_Class_Files\Base_Deal_Fine_Print_Option.cs" />
+    <Compile Include="Base_Class_Files\Base_Deal_Log.cs" />
+    <Compile Include="Base_Class_Files\Base_Deal_Payment.cs" />
+    <Compile Include="Base_Class_Files\Base_Deal_Status.cs" />
+    <Compile Include="Base_Class_Files\Base_Deal_Validation.cs" />
+    <Compile Include="Base_Class_Files\Base_Email_Template.cs" />
+    <Compile Include="Base_Class_Files\Base_Facebook_Data_Friends.cs" />
+    <Compile Include="Base_Class_Files\Base_Facebook_Data_Hometown.cs" />
+    <Compile Include="Base_Class_Files\Base_Facebook_Data_Location.cs" />
+    <Compile Include="Base_Class_Files\Base_Facebook_Data_Profile.cs" />
+    <Compile Include="Base_Class_Files\Base_Fine_Print_Option.cs" />
+    <Compile Include="Base_Class_Files\Base_Industry.cs" />
+    <Compile Include="Base_Class_Files\Base_Login_Log.cs" />
+    <Compile Include="Base_Class_Files\Base_Merchant.cs" />
+    <Compile Include="Base_Class_Files\Base_Merchant_Contact.cs" />
+    <Compile Include="Base_Class_Files\Base_Merchant_Contact_Status.cs" />
+    <Compile Include="Base_Class_Files\Base_Merchant_Contact_Validation.cs" />
+    <Compile Include="Base_Class_Files\Base_Merchant_Rating.cs" />
+    <Compile Include="Base_Class_Files\Base_Merchant_Status.cs" />
+    <Compile Include="Base_Class_Files\Base_Neighborhood.cs" />
+    <Compile Include="Base_Class_Files\Base_Password_Reset.cs" />
+    <Compile Include="Base_Class_Files\Base_Password_Reset_Status.cs" />
+    <Compile Include="Base_Class_Files\Base_Payment_Log.cs" />
+    <Compile Include="Base_Class_Files\Base_Plivo_Phone_Number.cs" />
+    <Compile Include="Base_Class_Files\Base_Promotion.cs" />
+    <Compile Include="Base_Class_Files\Base_Promotion_Activity.cs" />
+    <Compile Include="Base_Class_Files\Base_Promotion_Type.cs" />
+    <Compile Include="Base_Class_Files\Base_SMS_Template.cs" />
+    <Compile Include="Base_Class_Files\Base_State.cs" />
+    <Compile Include="Base_Class_Files\Base_System_Error.cs" />
+    <Compile Include="Base_Class_Files\Base_System_Settings.cs" />
+    <Compile Include="Base_Class_Files\Base_System_Successful.cs" />
+    <Compile Include="Base_Class_Files\Base_System_Users.cs" />
+    <Compile Include="Base_Class_Files\Base_Time_Zone.cs" />
+    <Compile Include="Base_Class_Files\Base_Twilio_Phone_Number.cs" />
+    <Compile Include="Base_Class_Files\Base_Zip_Code.cs" />
+    <Compile Include="Class_Files\Application_Type.cs" />
+    <Compile Include="Class_Files\Certificate.cs" />
+    <Compile Include="Class_Files\Certificate_Log.cs" />
+    <Compile Include="Class_Files\Certificate_Payment.cs" />
+    <Compile Include="Class_Files\Certificate_Status.cs" />
+    <Compile Include="Class_Files\City.cs" />
+    <Compile Include="Class_Files\Contact.cs" />
+    <Compile Include="Class_Files\Contact_GPS_Log.cs" />
+    <Compile Include="Class_Files\Credit_Card.cs" />
+    <Compile Include="Class_Files\Credit_Card_Type.cs" />
+    <Compile Include="Class_Files\Customer.cs" />
+    <Compile Include="Class_Files\Customer_Deal_Log.cs" />
+    <Compile Include="Class_Files\Customer_Search_Location_Type.cs" />
+    <Compile Include="Class_Files\Customer_Status.cs" />
+    <Compile Include="Class_Files\Deal.cs" />
+    <Compile Include="Class_Files\Deal_Fine_Print_Option.cs" />
+    <Compile Include="Class_Files\Deal_Log.cs" />
+    <Compile Include="Class_Files\Deal_Payment.cs" />
+    <Compile Include="Class_Files\Deal_Status.cs" />
+    <Compile Include="Class_Files\Deal_Validation.cs" />
+    <Compile Include="Class_Files\Email_Template.cs" />
+    <Compile Include="Class_Files\Facebook_Data_Friends.cs" />
+    <Compile Include="Class_Files\Facebook_Data_Hometown.cs" />
+    <Compile Include="Class_Files\Facebook_Data_Location.cs" />
+    <Compile Include="Class_Files\Facebook_Data_Profile.cs" />
+    <Compile Include="Class_Files\Fine_Print_Option.cs" />
+    <Compile Include="Class_Files\Industry.cs" />
+    <Compile Include="Class_Files\Login_Log.cs" />
+    <Compile Include="Class_Files\Merchant.cs" />
+    <Compile Include="Class_Files\Merchant_Contact.cs" />
+    <Compile Include="Class_Files\Merchant_Contact_Status.cs" />
+    <Compile Include="Class_Files\Merchant_Contact_Validation.cs" />
+    <Compile Include="Class_Files\Merchant_Rating.cs" />
+    <Compile Include="Class_Files\Merchant_Status.cs" />
+    <Compile Include="Class_Files\Neighborhood.cs" />
+    <Compile Include="Class_Files\Password_Reset.cs" />
+    <Compile Include="Class_Files\Password_Reset_Status.cs" />
+    <Compile Include="Class_Files\Payment_Log.cs" />
+    <Compile Include="Class_Files\Plivo_Phone_Number.cs" />
+    <Compile Include="Class_Files\Promotion.cs" />
+    <Compile Include="Class_Files\Promotion_Activity.cs" />
+    <Compile Include="Class_Files\Promotion_Type.cs" />
+    <Compile Include="Class_Files\SMS_Template.cs" />
+    <Compile Include="Class_Files\State.cs" />
+    <Compile Include="Class_Files\System_Error.cs" />
+    <Compile Include="Class_Files\System_Settings.cs" />
+    <Compile Include="Class_Files\System_Successful.cs" />
+    <Compile Include="Class_Files\System_Users.cs" />
+    <Compile Include="Class_Files\Time_Zone.cs" />
+    <Compile Include="Class_Files\Twilio_Phone_Number.cs" />
+    <Compile Include="Class_Files\Zip_Code.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GTSoft.CoreDotNet\GTSoft.CoreDotNet.csproj">
+      <Project>{0413442c-756b-4e81-8999-16449aa14e34}</Project>
+      <Name>GTSoft.CoreDotNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

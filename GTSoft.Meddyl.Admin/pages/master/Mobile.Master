@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mobile.master.cs" Inherits="GTSoft.Meddyl.Admin.pages.master.Mobile" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/css/mobile_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <table style="padding-left:10px">
+            <tr>
+                <td>
+                    <asp:LinkButton ID="lbnMain" runat="server" OnClick="lbnMain_Click" CssClass="linkbutton_1">Back to Main Menu</asp:LinkButton>
+                    <%--<asp:Image runat="server" ImageUrl="~/images/customer_logo_pink_630x190.png" CssClass="logo_1" />--%>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+
+        <asp:ContentPlaceHolder ID="cpMain" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.CoreConsole", "GTSoft.Core_Console\GTSoft.CoreConsole.csproj", "{2EC8D0E6-3EA1-4339-82CB-6B60D744CFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.CoreDotNet", "GTSoft.CoreDotNet\GTSoft.CoreDotNet.csproj", "{0413442C-756B-4E81-8999-16449AA14E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.API", "GTSoft.Meddyl.API\GTSoft.Meddyl.API.csproj", "{1C65E0E6-73F4-452A-8BDA-20C28C440367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.DAL", "GTSoft.Meddyl.DAL\GTSoft.Meddyl.DAL.csproj", "{9634000E-6431-4516-BE6C-135FB83B5AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.BLL", "GTSoft.Meddyl.BLL\GTSoft.Meddyl.BLL.csproj", "{191E9FA9-1417-4178-9AC2-B864FC6DD50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.Web", "GTSoft.Meddyl.Web\GTSoft.Meddyl.Web.csproj", "{862613E6-D713-4E38-BB31-01548FFEB055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.Admin", "GTSoft.Meddyl.Admin\GTSoft.Meddyl.Admin.csproj", "{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC8D0E6-3EA1-4339-82CB-6B60D744CFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC8D0E6-3EA1-4339-82CB-6B60D744CFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC8D0E6-3EA1-4339-82CB-6B60D744CFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC8D0E6-3EA1-4339-82CB-6B60D744CFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0413442C-756B-4E81-8999-16449AA14E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0413442C-756B-4E81-8999-16449AA14E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0413442C-756B-4E81-8999-16449AA14E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0413442C-756B-4E81-8999-16449AA14E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C65E0E6-73F4-452A-8BDA-20C28C440367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C65E0E6-73F4-452A-8BDA-20C28C440367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C65E0E6-73F4-452A-8BDA-20C28C440367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C65E0E6-73F4-452A-8BDA-20C28C440367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9634000E-6431-4516-BE6C-135FB83B5AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9634000E-6431-4516-BE6C-135FB83B5AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9634000E-6431-4516-BE6C-135FB83B5AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9634000E-6431-4516-BE6C-135FB83B5AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
