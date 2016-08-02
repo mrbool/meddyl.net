@@ -239,10 +239,10 @@ namespace GTSoft.Core_Console
                 //this.txtStoredProcPrefix.Text = "sp_";
 
                 this.cbServerType.SelectedItem = "SQL Server";
-                this.txtServer.Text = @"BCTLW7TRIARHGX\SQL2008R2DEV";
+                this.txtServer.Text = @"DESKTOP-5G3R4HI";
                 this.txtDatabase.Text = "meddyl";
                 this.txtUserID.Text = "sa";
-                this.txtPassword.Text = "test";
+                this.txtPassword.Text = "Blacksb3ach";
                 this.txtNamespace.Text = "GTSoft.Meddyl";
                 this.txtXMLDataSource.Text = "Meddyl";
                 this.txtStoredProcPrefix.Text = "sp_";
