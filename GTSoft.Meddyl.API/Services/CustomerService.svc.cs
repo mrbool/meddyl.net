@@ -1452,6 +1452,7 @@ namespace GTSoft.Meddyl.API
                         promotion_obj.promotion_code = deal_bll.promotion_activity_dal.promotion_dal.promotion_code.ToString();
 
                         Promotion_Activity promotion_activity_obj = new Promotion_Activity();
+                        promotion_activity_obj.promotion_activity_id = int.Parse(deal_bll.promotion_activity_dal.promotion_activity_id.ToString());
                         promotion_activity_obj.promotion_obj = promotion_obj;
 
                         Credit_Card_Type credit_card_type_obj = new Credit_Card_Type();

@@ -7,7 +7,7 @@
 		<user_name>85,138,231,150,22,181,233,53</user_name>
 		<password>61,41,249,120,220,189,189,18,55,8,253,225,68,96,254,197</password>
 		<authentication>SQL</authentication>
-		<database>meddyl</database>
+		<database>meddyl_dev</database>
 		<connection_timeout>1000</connection_timeout>
 		<port>0</port>
 		<encrypt>true</encrypt>

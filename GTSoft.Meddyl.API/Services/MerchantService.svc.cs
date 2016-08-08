@@ -904,6 +904,7 @@ namespace GTSoft.Meddyl.API
                     credit_card_dal.card_number = credit_card_obj.card_number.Trim();
                     credit_card_dal.expiration_date = credit_card_obj.expiration_date.Trim();
                     credit_card_dal.billing_zip_code = credit_card_obj.billing_zip_code.Trim();
+                    credit_card_dal.security_code = credit_card_obj.security_code.Trim();
                     credit_card_dal.merchant_contact_dal = merchant_contact_dal;
 
                     BLL.Merchant merchant_bll = new BLL.Merchant(credit_card_dal);
