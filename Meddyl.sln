@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.CoreConsole", "GTSoft.Core_Console\GTSoft.CoreConsole.csproj", "{2EC8D0E6-3EA1-4339-82CB-6B60D744CFE6}"
 EndProject
@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.DAL", "GTSoft
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.BLL", "GTSoft.Meddyl.BLL\GTSoft.Meddyl.BLL.csproj", "{191E9FA9-1417-4178-9AC2-B864FC6DD50B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.Web", "GTSoft.Meddyl.Web\GTSoft.Meddyl.Web.csproj", "{862613E6-D713-4E38-BB31-01548FFEB055}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.Admin", "GTSoft.Meddyl.Admin\GTSoft.Meddyl.Admin.csproj", "{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTSoft.Meddyl.Web", "GTSoft.Meddyl.Web\GTSoft.Meddyl.Web.csproj", "{862613E6-D713-4E38-BB31-01548FFEB055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,14 +43,14 @@ Global
 		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191E9FA9-1417-4178-9AC2-B864FC6DD50B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{862613E6-D713-4E38-BB31-01548FFEB055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{862613E6-D713-4E38-BB31-01548FFEB055}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{862613E6-D713-4E38-BB31-01548FFEB055}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{862613E6-D713-4E38-BB31-01548FFEB055}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D30BECB-DEFB-4ACE-9E5F-DADF62F49336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862613E6-D713-4E38-BB31-01548FFEB055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
